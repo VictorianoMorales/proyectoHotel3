@@ -1,0 +1,22 @@
+.footer {     
+    margin-top: 0;   
+    background: $color;
+    background: linear-gradient(90deg, $color 59%, $secondaryColor 98%);
+    height: 5vh;
+    
+    .footer div{
+        height: 100%;
+        
+        .footer div p{
+            height: 100%;
+            
+        }
+    }   
+}
+
+@media (max-width: 576px) {   
+    
+    .footer{
+        height: 10vh;
+    }
+}
