@@ -27,7 +27,22 @@ li {
   margin-top: 0;
   background: #212121;
   background: linear-gradient(90deg, #212121 59%, rgb(117, 117, 117) 98%);
-  height: 5vh;
+  height: 15vh;
+}
+.footer .redes .container .social__bar a {
+  margin-right: 20px;
+}
+.footer .redes .container .social__bar a .bi-facebook {
+  color: #3b5998;
+}
+.footer .redes .container .social__bar a .bi-whatsapp {
+  color: #075E54;
+}
+.footer .redes .container .social__bar a .bi-instagram {
+  color: #5851DB;
+}
+.footer .redes .container .social__bar a .bi-twitter {
+  color: #00acee;
 }
 .footer .footer div {
   height: 100%;
@@ -38,7 +53,7 @@ li {
 
 @media (max-width: 576px) {
   .footer {
-    height: 10vh;
+    height: 15vh;
   }
 }
 .main__index {
@@ -94,7 +109,7 @@ li {
 }
 .body__servicios .main__servicios {
   background: #212121;
-  background: linear-gradient(90deg, #212121 59%, secondaryColor 98%);
+  background: linear-gradient(90deg, #212121 59%, rgb(117, 117, 117) 98%);
 }
 .body__servicios .main__servicios .container .galeria__img .galeria__img-item {
   width: 100%;

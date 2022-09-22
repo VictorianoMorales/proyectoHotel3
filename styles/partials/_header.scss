@@ -1,7 +1,6 @@
 .header{
-    background: $color;
-    background: linear-gradient(90deg, $color 59%, $secondaryColor 98%);  
+    @extend %gradiante;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 1;    
 }

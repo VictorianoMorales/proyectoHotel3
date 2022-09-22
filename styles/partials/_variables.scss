@@ -1,2 +1,6 @@
 $color:  #212121;
 $secondaryColor: rgba(117,117,117,1);
+%gradiante{
+    background: $color;
+    background: linear-gradient(90deg, $color 59%, $secondaryColor 98%);
+}

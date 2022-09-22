@@ -1,21 +1,24 @@
 .body__servicios{
-    background: $color;
-    background: linear-gradient(90deg, $color 59%, $secondaryColor 98%);
+    @extend %gradiante;
 
     .main__servicios{   
-        background: $color;
-        background: linear-gradient(90deg, $color 59%, secondaryColor 98%);  
+        @extend %gradiante;
         
         .container{
 
             .galeria__img{
-
-                .galeria__img-item{
-                    width: 100%;
-                    height: 100%;    
-                    border-radius: 20px;
+                @mixin tamano($ancho, $alto) {
+                    width: $ancho;
+                    height: $alto;                    
                 }
+
+                .galeria__img-item{                      
+                    border-radius: 20px;
+                    @include tamanos(100%, 100%)
+                }
+
             }
+                
         }
     }
 }
