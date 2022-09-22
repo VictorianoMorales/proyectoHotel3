@@ -1,0 +1,66 @@
+.main__contacto{
+    background: $color;
+    background: linear-gradient(90deg, $color 59%, $secondaryColor 98%);
+
+    .container{
+
+        .formulario{
+
+            .campos{
+
+                .input{
+                    width: 200px;
+                }
+
+                .textarea{
+                    width: 500px;
+                    height: 200px;
+                }
+
+                .boton{
+                    width: 100px;
+                    border: solid 1px #212121;
+                    border-radius: 20px;
+                    background-color: white;
+                    color: #212121;
+                    
+                    &:hover{
+                        background-color: #212121;
+                        color: white;
+                        border: solid 1px white;
+                    }
+                }
+            }
+
+        
+        }
+    }
+
+    .conteiner{
+        .iframe{
+            width: 100%;
+        }
+
+
+    }
+}
+
+@media (max-width: 576px) {   
+    .main__contacto{
+
+        .container{
+
+            .formulario{
+
+                .campos{
+                    
+                    .textarea{
+                        width: 255px;
+                    }   
+
+                }
+            }
+        }
+    }
+       
+}

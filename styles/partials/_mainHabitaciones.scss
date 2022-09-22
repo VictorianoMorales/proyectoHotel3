@@ -1,0 +1,23 @@
+.main__habitaciones{
+    background: $color;
+    background: linear-gradient(90deg, $color 59%, $secondaryColor 98%);
+    
+    .container{
+        
+        .container__cards{
+            display: flex;
+            flex-direction: column;
+
+            .card{
+                box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.2);
+                transition: 1s;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+    }
+
+}

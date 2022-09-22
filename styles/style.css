@@ -70,4 +70,67 @@ li {
   background-color: white;
   color: #212121;
   transition: 1s;
+}
+
+.main__habitaciones {
+  background: #212121;
+  background: linear-gradient(90deg, #212121 59%, rgb(117, 117, 117) 98%);
+}
+.main__habitaciones .container .container__cards {
+  display: flex;
+  flex-direction: column;
+}
+.main__habitaciones .container .container__cards .card {
+  box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.2);
+  transition: 1s;
+}
+.main__habitaciones .container .container__cards .card:hover {
+  transform: scale(1.1);
+}
+
+.body__servicios {
+  background: #212121;
+  background: linear-gradient(90deg, #212121 59%, rgb(117, 117, 117) 98%);
+}
+.body__servicios .main__servicios {
+  background: #212121;
+  background: linear-gradient(90deg, #212121 59%, secondaryColor 98%);
+}
+.body__servicios .main__servicios .container .galeria__img .galeria__img-item {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.main__contacto {
+  background: #212121;
+  background: linear-gradient(90deg, #212121 59%, rgb(117, 117, 117) 98%);
+}
+.main__contacto .container .formulario .campos .input {
+  width: 200px;
+}
+.main__contacto .container .formulario .campos .textarea {
+  width: 500px;
+  height: 200px;
+}
+.main__contacto .container .formulario .campos .boton {
+  width: 100px;
+  border: solid 1px #212121;
+  border-radius: 20px;
+  background-color: white;
+  color: #212121;
+}
+.main__contacto .container .formulario .campos .boton:hover {
+  background-color: #212121;
+  color: white;
+  border: solid 1px white;
+}
+.main__contacto .conteiner .iframe {
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .main__contacto .container .formulario .campos .textarea {
+    width: 255px;
+  }
 }/*# sourceMappingURL=style.css.map */
